@@ -1,0 +1,21 @@
+{
+  "name": "tiny-scrollto",
+  "description": "Tiny 0.4kB animated scroll helper",
+  "version": "1.0.1",
+  "main": "dist/tiny-scrollto.js",
+  "author": "Ben Hallstein <ben@ben.am> (https://ben.am/)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bhallstein/tiny-scrollto.git"
+  },
+  "license": "ISC",
+  "scripts": {
+    "compile": "babel tiny-scrollto.js -d dist",
+    "prepublishOnly": "npm run compile"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6"
+  }
+}
