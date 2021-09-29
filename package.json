@@ -1,7 +1,7 @@
 {
   "name": "tiny-scrollto",
   "description": "Tiny 0.4kB animated scroll helper",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "dist/tiny-scrollto.js",
   "author": "Ben Hallstein <ben@ben.am> (https://ben.am/)",
   "repository": {

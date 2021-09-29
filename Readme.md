@@ -1,12 +1,12 @@
 # tiny-scrollto
 
-### Install
+**Install:**
 
 ```js
 npm install -S tiny-scrollto
 ```
 
-### Use
+**Use:**
 
 ```js
 import {scroll} from 'tiny-scrollto'
