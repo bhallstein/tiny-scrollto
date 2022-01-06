@@ -1,5 +1,7 @@
 # tiny-scrollto
 
+Animate DOM scrolling. 0.4kB, zero dependencies.
+
 **Install:**
 
 ```js

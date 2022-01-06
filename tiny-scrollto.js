@@ -23,17 +23,16 @@ export function scroll(offset) {
     offset = document.body.scrollHeight - window.innerHeight
   }
 
-  const tick = () => {
+  function tick() {
     const t = timing_func((performance.now() - start_t) / duration)
     const top = start_offset + (offset - start_offset) * t
     window.scrollTo({top})
-
     if (t === 1) {
       clearInterval(interval)
     }
   }
 
-  clearTimeout(interval)
+  clearInterval(interval)
   start_t = performance.now()
   start_offset = document.body.scrollTop
   interval = setInterval(tick, 20)
