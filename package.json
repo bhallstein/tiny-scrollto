@@ -1,7 +1,7 @@
 {
   "name": "tiny-scrollto",
   "description": "Animate DOM scrolling. 0.4kB, zero dependencies.",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "main": "dist/tiny-scrollto.js",
   "author": "Ben Hallstein <ben@ben.am> (https://ben.am/)",
   "repository": {
