@@ -13,10 +13,9 @@ function timing_func(t) {
   return clamp(t, 0, 1)
 }
 
-const duration = 500
 const s = {}
 
-export function scroll(offset, body = window.document.body, win = window) {
+export function scroll(offset, body = window.document.body, win = window, duration = 500) {
   if (offset === 'end') {
     offset = body.scrollHeight - win.innerHeight
   }

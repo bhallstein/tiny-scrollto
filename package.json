@@ -1,7 +1,7 @@
 {
   "name": "tiny-scrollto",
   "description": "Animate DOM scrolling. 0.4kB, zero dependencies.",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "main": "dist/tiny-scrollto.js",
   "author": "Ben Hallstein <ben@ben.am> (https://ben.am/)",
   "repository": {
@@ -14,8 +14,8 @@
     "prepublishOnly": "npm run compile"
   },
   "devDependencies": {
-    "@babel/cli": "^7.15.7",
-    "@babel/core": "^7.15.5",
-    "@babel/preset-env": "^7.15.6"
+    "@babel/cli": "7.23.0",
+    "@babel/core": "7.23.2",
+    "@babel/preset-env": "7.23.2"
   }
 }
